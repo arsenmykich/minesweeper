@@ -1,0 +1,92 @@
+@{
+    ViewData["Title"] = "Minesweeper Game";
+}
+
+<div class="game-container">
+    <div class="game-header">
+        <h1>Minesweeper</h1>
+        
+        <div class="game-controls">
+            <div class="player-section">
+                <label for="playerSelect">Player:</label>
+                <select id="playerSelect" class="form-control">
+                    <option value="">Anonymous</option>
+                </select>
+                <button id="newPlayerBtn" class="btn btn-sm btn-secondary">New Player</button>
+            </div>
+
+            <div class="difficulty-section">
+                <label for="difficultySelect">Difficulty:</label>
+                <select id="difficultySelect" class="form-control">
+                    <option value="0">Beginner (9x9, 10 mines)</option>
+                    <option value="1">Intermediate (16x16, 40 mines)</option>
+                    <option value="2">Expert (30x16, 99 mines)</option>
+                </select>
+            </div>
+
+            <button id="newGameBtn" class="btn btn-primary">New Game</button>
+        </div>
+
+        <div class="game-info">
+            <div class="info-item">
+                <span class="label">Mines:</span>
+                <span id="mineCount" class="value">0</span>
+            </div>
+            <div class="info-item">
+                <span class="label">Time:</span>
+                <span id="timer" class="value">0:00</span>
+            </div>
+            <div class="info-item">
+                <span class="label">Status:</span>
+                <span id="gameStatus" class="value">Ready</span>
+            </div>
+        </div>
+
+        <div class="solver-controls">
+            <button id="hintBtn" class="btn btn-info">Get Hint</button>
+            <button id="solveBtn" class="btn btn-warning">Auto Solve</button>
+        </div>
+    </div>
+
+    <div class="game-board-container">
+        <div id="gameBoard" class="game-board">
+            <!-- Game board will be generated here -->
+        </div>
+    </div>
+
+    <div class="game-messages">
+        <div id="messageContainer" class="alert" style="display: none;"></div>
+    </div>
+</div>
+
+<!-- Player Name Modal -->
+<div id="playerModal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <h3>Create New Player</h3>
+        <input type="text" id="playerNameInput" placeholder="Enter player name" maxlength="50" class="form-control">
+        <div class="modal-buttons">
+            <button id="createPlayerBtn" class="btn btn-primary">Create</button>
+            <button id="cancelPlayerBtn" class="btn btn-secondary">Cancel</button>
+        </div>
+    </div>
+</div>
+
+<!-- Solver Results Modal -->
+<div id="solverModal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <h3>Solver Results</h3>
+        <div id="solverResults"></div>
+        <div class="modal-buttons">
+            <button id="closeSolverBtn" class="btn btn-primary">Close</button>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Initialize the game when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            Game.init();
+        });
+    </script>
+}

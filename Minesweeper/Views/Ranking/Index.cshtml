@@ -1,0 +1,187 @@
+@model Minesweeper.Controllers.RankingViewModel
+@{
+    ViewData["Title"] = "Leaderboard";
+}
+
+<div class="ranking-container">
+    <h1>🏆 Leaderboard</h1>
+
+    <div class="ranking-tabs">
+        <button class="tab-button active" data-tab="beginner">Beginner</button>
+        <button class="tab-button" data-tab="intermediate">Intermediate</button>
+        <button class="tab-button" data-tab="expert">Expert</button>
+        <button class="tab-button" data-tab="solver">AI Solver</button>
+    </div>
+
+    <div class="tab-content">
+        <div id="beginner" class="tab-pane active">
+            <h3>Beginner (9x9, 10 mines)</h3>
+            <div class="leaderboard-table">
+                @if (Model.BeginnerLeaderboard.Any())
+                {
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Player</th>
+                                <th>Time</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.BeginnerLeaderboard.Count; i++)
+                            {
+                                var result = Model.BeginnerLeaderboard[i];
+                                <tr>
+                                    <td>@(i + 1)</td>
+                                    <td>@(result.Player?.Name ?? "Anonymous")</td>
+                                    <td>@result.CompletionTime.ToString(@"mm\:ss")</td>
+                                    <td>@result.PlayedAt.ToString("yyyy-MM-dd")</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                }
+                else
+                {
+                    <p class="no-results">No games completed yet.</p>
+                }
+            </div>
+        </div>
+
+        <div id="intermediate" class="tab-pane">
+            <h3>Intermediate (16x16, 40 mines)</h3>
+            <div class="leaderboard-table">
+                @if (Model.IntermediateLeaderboard.Any())
+                {
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Player</th>
+                                <th>Time</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.IntermediateLeaderboard.Count; i++)
+                            {
+                                var result = Model.IntermediateLeaderboard[i];
+                                <tr>
+                                    <td>@(i + 1)</td>
+                                    <td>@(result.Player?.Name ?? "Anonymous")</td>
+                                    <td>@result.CompletionTime.ToString(@"mm\:ss")</td>
+                                    <td>@result.PlayedAt.ToString("yyyy-MM-dd")</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                }
+                else
+                {
+                    <p class="no-results">No games completed yet.</p>
+                }
+            </div>
+        </div>
+
+        <div id="expert" class="tab-pane">
+            <h3>Expert (30x16, 99 mines)</h3>
+            <div class="leaderboard-table">
+                @if (Model.ExpertLeaderboard.Any())
+                {
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Player</th>
+                                <th>Time</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.ExpertLeaderboard.Count; i++)
+                            {
+                                var result = Model.ExpertLeaderboard[i];
+                                <tr>
+                                    <td>@(i + 1)</td>
+                                    <td>@(result.Player?.Name ?? "Anonymous")</td>
+                                    <td>@result.CompletionTime.ToString(@"mm\:ss")</td>
+                                    <td>@result.PlayedAt.ToString("yyyy-MM-dd")</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                }
+                else
+                {
+                    <p class="no-results">No games completed yet.</p>
+                }
+            </div>
+        </div>
+
+        <div id="solver" class="tab-pane">
+            <h3>AI Solver Results</h3>
+            <div class="leaderboard-table">
+                @if (Model.SolverLeaderboard.Any())
+                {
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Difficulty</th>
+                                <th>Time</th>
+                                <th>Strategy</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.SolverLeaderboard.Count; i++)
+                            {
+                                var result = Model.SolverLeaderboard[i];
+                                <tr>
+                                    <td>@(i + 1)</td>
+                                    <td>@result.Difficulty.ToString()</td>
+                                    <td>@result.CompletionTime.ToString(@"mm\:ss")</td>
+                                    <td>@(result.SolverStrategy ?? "Unknown")</td>
+                                    <td>@result.PlayedAt.ToString("yyyy-MM-dd")</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                }
+                else
+                {
+                    <p class="no-results">No solver games completed yet.</p>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="ranking-actions">
+        <a href="@Url.Action("Index", "Game")" class="btn btn-primary">Play Game</a>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Tab switching functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabButtons = document.querySelectorAll('.tab-button');
+            const tabPanes = document.querySelectorAll('.tab-pane');
+
+            tabButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const targetTab = this.dataset.tab;
+
+                    // Remove active class from all buttons and panes
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    tabPanes.forEach(pane => pane.classList.remove('active'));
+
+                    // Add active class to clicked button and corresponding pane
+                    this.classList.add('active');
+                    document.getElementById(targetTab).classList.add('active');
+                });
+            });
+        });
+    </script>
+}

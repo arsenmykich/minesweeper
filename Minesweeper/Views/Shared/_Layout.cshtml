@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Minesweeper</title>
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link href="~/css/minesweeper.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="@Url.Action("Index", "Game")">🎮 Minesweeper</a>
+                <div class="navbar-nav">
+                    <a class="nav-link" href="@Url.Action("Index", "Game")">Play Game</a>
+                    <a class="nav-link" href="@Url.Action("Index", "Ranking")">Leaderboard</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">&copy; 2024 - Minesweeper Game</span>
+        </div>
+    </footer>
+
+    <script src="~/js/minesweeper.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

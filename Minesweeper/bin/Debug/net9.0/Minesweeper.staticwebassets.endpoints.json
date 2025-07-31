@@ -1,0 +1,900 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "css/minesweeper.cdg1utreqx.css",
+      "AssetFile": "css/minesweeper.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000613496933"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1629"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2TGJfrfJMeq90FUjzaVZorsnWS+M/n9g6PMbWjr3Uxs=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"IKuCiAtqrNhMGbTOs7JrP4i8SRBBImOMfL/7HzPpTnw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:51:38 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cdg1utreqx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IKuCiAtqrNhMGbTOs7JrP4i8SRBBImOMfL/7HzPpTnw="
+        },
+        {
+          "Name": "label",
+          "Value": "css/minesweeper.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/minesweeper.cdg1utreqx.css",
+      "AssetFile": "css/minesweeper.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6217"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IKuCiAtqrNhMGbTOs7JrP4i8SRBBImOMfL/7HzPpTnw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:51:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cdg1utreqx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IKuCiAtqrNhMGbTOs7JrP4i8SRBBImOMfL/7HzPpTnw="
+        },
+        {
+          "Name": "label",
+          "Value": "css/minesweeper.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/minesweeper.cdg1utreqx.css.gz",
+      "AssetFile": "css/minesweeper.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1629"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2TGJfrfJMeq90FUjzaVZorsnWS+M/n9g6PMbWjr3Uxs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:51:38 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cdg1utreqx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2TGJfrfJMeq90FUjzaVZorsnWS+M/n9g6PMbWjr3Uxs="
+        },
+        {
+          "Name": "label",
+          "Value": "css/minesweeper.css.gz"
+        }
+      ]
+    },
+    {
+      "Route": "css/minesweeper.css",
+      "AssetFile": "css/minesweeper.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000613496933"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1629"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2TGJfrfJMeq90FUjzaVZorsnWS+M/n9g6PMbWjr3Uxs=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"IKuCiAtqrNhMGbTOs7JrP4i8SRBBImOMfL/7HzPpTnw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:51:38 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IKuCiAtqrNhMGbTOs7JrP4i8SRBBImOMfL/7HzPpTnw="
+        }
+      ]
+    },
+    {
+      "Route": "css/minesweeper.css",
+      "AssetFile": "css/minesweeper.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6217"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IKuCiAtqrNhMGbTOs7JrP4i8SRBBImOMfL/7HzPpTnw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:51:38 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IKuCiAtqrNhMGbTOs7JrP4i8SRBBImOMfL/7HzPpTnw="
+        }
+      ]
+    },
+    {
+      "Route": "css/minesweeper.css.gz",
+      "AssetFile": "css/minesweeper.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1629"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2TGJfrfJMeq90FUjzaVZorsnWS+M/n9g6PMbWjr3Uxs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:51:38 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2TGJfrfJMeq90FUjzaVZorsnWS+M/n9g6PMbWjr3Uxs="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.ck6nii6x3b.css",
+      "AssetFile": "css/site.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000789265983"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1266"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R8l+pWN38gXPnXVc/cZBQwewDKsYEevb1mpfBQDAuQg=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/Pr8BCo3N743b+FtaTEcfeJv9+gV9fhIssmQpsATTgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:51:37 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ck6nii6x3b"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/Pr8BCo3N743b+FtaTEcfeJv9+gV9fhIssmQpsATTgk="
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/site.ck6nii6x3b.css",
+      "AssetFile": "css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4137"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/Pr8BCo3N743b+FtaTEcfeJv9+gV9fhIssmQpsATTgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:51:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ck6nii6x3b"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/Pr8BCo3N743b+FtaTEcfeJv9+gV9fhIssmQpsATTgk="
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/site.ck6nii6x3b.css.gz",
+      "AssetFile": "css/site.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1266"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R8l+pWN38gXPnXVc/cZBQwewDKsYEevb1mpfBQDAuQg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:51:37 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ck6nii6x3b"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R8l+pWN38gXPnXVc/cZBQwewDKsYEevb1mpfBQDAuQg="
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "css/site.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000789265983"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1266"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R8l+pWN38gXPnXVc/cZBQwewDKsYEevb1mpfBQDAuQg=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/Pr8BCo3N743b+FtaTEcfeJv9+gV9fhIssmQpsATTgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:51:37 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/Pr8BCo3N743b+FtaTEcfeJv9+gV9fhIssmQpsATTgk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4137"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/Pr8BCo3N743b+FtaTEcfeJv9+gV9fhIssmQpsATTgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:51:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/Pr8BCo3N743b+FtaTEcfeJv9+gV9fhIssmQpsATTgk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "css/site.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1266"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R8l+pWN38gXPnXVc/cZBQwewDKsYEevb1mpfBQDAuQg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:51:37 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R8l+pWN38gXPnXVc/cZBQwewDKsYEevb1mpfBQDAuQg="
+        }
+      ]
+    },
+    {
+      "Route": "js/minesweeper.jmxkip15ic.js",
+      "AssetFile": "js/minesweeper.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000276701716"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3613"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"13ONC8RCLxcwzb2KJKB4J1/+6ryEgLfgRM7cpD06Pvs=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"O41+Knmq5V09NQgflMry/pzSJt6sikdTG21x79+/A6g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:51:43 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jmxkip15ic"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O41+Knmq5V09NQgflMry/pzSJt6sikdTG21x79+/A6g="
+        },
+        {
+          "Name": "label",
+          "Value": "js/minesweeper.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/minesweeper.jmxkip15ic.js",
+      "AssetFile": "js/minesweeper.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O41+Knmq5V09NQgflMry/pzSJt6sikdTG21x79+/A6g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:51:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jmxkip15ic"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O41+Knmq5V09NQgflMry/pzSJt6sikdTG21x79+/A6g="
+        },
+        {
+          "Name": "label",
+          "Value": "js/minesweeper.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/minesweeper.jmxkip15ic.js.gz",
+      "AssetFile": "js/minesweeper.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3613"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"13ONC8RCLxcwzb2KJKB4J1/+6ryEgLfgRM7cpD06Pvs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:51:43 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jmxkip15ic"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-13ONC8RCLxcwzb2KJKB4J1/+6ryEgLfgRM7cpD06Pvs="
+        },
+        {
+          "Name": "label",
+          "Value": "js/minesweeper.js.gz"
+        }
+      ]
+    },
+    {
+      "Route": "js/minesweeper.js",
+      "AssetFile": "js/minesweeper.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000276701716"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3613"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"13ONC8RCLxcwzb2KJKB4J1/+6ryEgLfgRM7cpD06Pvs=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"O41+Knmq5V09NQgflMry/pzSJt6sikdTG21x79+/A6g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:51:43 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O41+Knmq5V09NQgflMry/pzSJt6sikdTG21x79+/A6g="
+        }
+      ]
+    },
+    {
+      "Route": "js/minesweeper.js",
+      "AssetFile": "js/minesweeper.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O41+Knmq5V09NQgflMry/pzSJt6sikdTG21x79+/A6g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:51:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O41+Knmq5V09NQgflMry/pzSJt6sikdTG21x79+/A6g="
+        }
+      ]
+    },
+    {
+      "Route": "js/minesweeper.js.gz",
+      "AssetFile": "js/minesweeper.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3613"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"13ONC8RCLxcwzb2KJKB4J1/+6ryEgLfgRM7cpD06Pvs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 31 Jul 2025 07:51:43 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-13ONC8RCLxcwzb2KJKB4J1/+6ryEgLfgRM7cpD06Pvs="
+        }
+      ]
+    }
+  ]
+}
